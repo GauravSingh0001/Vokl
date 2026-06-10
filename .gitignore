@@ -1,0 +1,14 @@
+# Root virtual environment
+.venv/
+venv/
+
+# Environment files
+.env
+.env*.local
+
+# Node dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
