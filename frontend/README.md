@@ -1,6 +1,6 @@
-# AI Voice Studio Frontend
+# Vokl Frontend
 
-This package contains the Next.js 16 frontend for AI Voice Studio SaaS.
+This package contains the Next.js 16 frontend for Vokl SaaS.
 
 ## Stack
 

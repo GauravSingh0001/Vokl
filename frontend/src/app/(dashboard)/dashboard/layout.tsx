@@ -17,8 +17,8 @@ import BreadcrumbPageClient from '~/components/sidebar/breadcrumb-page-client';
 import AppSidebar from '~/components/sidebar/app-sidebar';
 
 export const metadata: Metadata = {
-  title: "AI Voice Studio",
-  description: "AI Voice Studio - Transform text into natural speech",
+  title: "Vokl",
+  description: "Vokl - Transform text into natural speech",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

@@ -1,6 +1,6 @@
-# AI Voice Studio SaaS
+# Vokl SaaS
 
-🚀 Build an AI Voice Studio SaaS with Next.js 16, Python, Neon, Polar, Modal & Better Auth
+🚀 Build Vokl SaaS with Next.js 16, Python, Neon, Polar, Modal & Better Auth
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
@@ -17,7 +17,7 @@
 
 ## 📋 Overview
 
-Welcome to the AI Voice Studio SaaS application! This is a production-ready platform that combines a modern Next.js 16 frontend with a powerful Python backend for AI-powered text-to-speech generation. The application features secure authentication, payment processing, real-time audio generation, and a comprehensive project management system.
+Welcome to the Vokl SaaS application! This is a production-ready platform that combines a modern Next.js 16 frontend with a powerful Python backend for AI-powered text-to-speech generation. The application features secure authentication, payment processing, real-time audio generation, and a comprehensive project management system.
 
 ### 🎯 What You'll Learn
 
@@ -100,7 +100,7 @@ This project demonstrates how to bridge frontend web development with AI backend
 ### Project Structure
 
 ```
-ai-voice-studio-app/
+Vokl/
 ├── frontend/                 # Next.js 16 application
 │   ├── src/
 │   │   ├── app/             # App Router pages and layouts
@@ -158,8 +158,8 @@ ai-voice-studio-app/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/sahandghavidel/ai-voice-studio-app.git
-   cd ai-voice-studio-app
+   git clone https://github.com/GauravSingh0001/Vokl.git
+   cd Vokl
    ```
 
 2. **Frontend Setup**
@@ -292,12 +292,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Modal** → https://bit.ly/4j1oyWJ
 - **Polar** → https://polar.sh
 - **Better Auth** → https://better-auth.com
-- **GitHub Repo** → https://github.com/sahandghavidel/ai-voice-studio-app
+- **GitHub Repo** → https://github.com/GauravSingh0001/Vokl.git
 - **Eraser Diagram** → https://app.eraser.io/workspace/kLqXSZ6CIxZrJdeYMRt2?origin=share
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ by [Sahand Ghavidel](https://github.com/sahandghavidel)
+- Built with ❤️ by [Gaurav Singh](https://github.com/GauravSingh0001)
 - Special thanks to the open-source community
 
 ---
