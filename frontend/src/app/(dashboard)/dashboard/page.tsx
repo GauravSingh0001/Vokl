@@ -127,7 +127,7 @@ export default function Dashboard() {
                 <Music className="h-4 w-4 text-purple-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold text-purple-600">
+                <div className="text-2xl font-bold text-stone-700">
                   {userStats.totalAudioProjects}
                 </div>
                 <p className="text-muted-foreground text-xs">TTS generations</p>
@@ -141,7 +141,7 @@ export default function Dashboard() {
                 <Calendar className="h-4 w-4 text-blue-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold text-blue-600">
+                <div className="text-2xl font-bold text-stone-700">
                   {userStats.thisMonth}
                 </div>
                 <p className="text-muted-foreground text-xs">
@@ -155,7 +155,7 @@ export default function Dashboard() {
                 <TrendingUp className="h-4 w-4 text-green-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold text-green-600">
+                <div className="text-2xl font-bold text-stone-700">
                   {userStats.thisWeek}
                 </div>
                 <p className="text-muted-foreground text-xs">Recent activity</p>
@@ -169,7 +169,7 @@ export default function Dashboard() {
                 <Star className="h-4 w-4 text-yellow-500" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold text-yellow-600">
+                <div className="text-2xl font-bold text-stone-700">
                   {user?.createdAt
                     ? new Date(
                         user.createdAt as string | number | Date,
@@ -194,7 +194,7 @@ export default function Dashboard() {
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <Button
                   onClick={() => router.push("/dashboard/create")}
-                  className="group h-auto flex-col gap-2 bg-purple-600 p-6 hover:bg-purple-700"
+                  className="group h-auto flex-col gap-2 bg-stone-900 p-6 hover:bg-stone-800"
                 >
                   <Mic className="h-8 w-8 transition-transform group-hover:scale-110" />
                   <div className="text-center">
@@ -236,7 +236,7 @@ export default function Dashboard() {
           <Card>
             <CardHeader className="flex flex-row items-center justify-between">
               <CardTitle className="flex items-center gap-2">
-                <Music className="h-5 w-5 text-purple-600" />
+                <Music className="h-5 w-5 text-stone-600" />
                 Recent Audio Projects
               </CardTitle>
               {audioProjects.length > 0 && (
@@ -244,7 +244,7 @@ export default function Dashboard() {
                   variant="ghost"
                   size="sm"
                   onClick={() => router.push("/dashboard/projects")}
-                  className="text-purple-600 hover:text-purple-700"
+                  className="text-stone-600 hover:text-stone-900"
                 >
                   View All <ArrowRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -267,7 +267,7 @@ export default function Dashboard() {
                     </p>
                     <Button
                       onClick={() => router.push("/dashboard/create")}
-                      className="gap-2 bg-purple-600 hover:bg-purple-700"
+                      className="gap-2 bg-stone-900 hover:bg-stone-800"
                     >
                       <Mic className="h-4 w-4" />
                       Create Your First Audio

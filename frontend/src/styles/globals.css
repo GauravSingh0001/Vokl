@@ -11,6 +11,8 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* Vokl Design System — Warm Neutral & Professional */
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -50,38 +52,59 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  /* Vokl — Warm Neutral Light Theme */
+  --radius: 0.5rem;
+
+  /* Backgrounds — warm off-white, stone family */
+  --background: oklch(0.988 0.003 75);      /* stone-50 */
+  --foreground: oklch(0.145 0.01 60);       /* stone-950 */
+
+  --card: oklch(1 0 0);                     /* pure white cards */
+  --card-foreground: oklch(0.2 0.01 60);
+
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.2 0.01 60);
+
+  /* Primary — deep charcoal */
+  --primary: oklch(0.22 0.01 60);           /* stone-900 */
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
+
+  /* Secondary — light stone */
+  --secondary: oklch(0.96 0.004 75);        /* stone-100 */
+  --secondary-foreground: oklch(0.25 0.01 60);
+
+  /* Muted */
+  --muted: oklch(0.96 0.004 75);
+  --muted-foreground: oklch(0.52 0.01 60);  /* stone-500 */
+
+  /* Accent — subtle slate-blue */
+  --accent: oklch(0.95 0.01 240);
+  --accent-foreground: oklch(0.3 0.06 240);
+
+  /* Destructive */
+  --destructive: oklch(0.58 0.22 27);
+
+  /* Borders & Inputs */
+  --border: oklch(0.9 0.005 75);            /* stone-200 */
+  --input: oklch(0.9 0.005 75);
+  --ring: oklch(0.6 0.04 240);              /* soft slate-blue ring */
+
+  /* Sidebar — slightly off-white */
+  --sidebar: oklch(0.98 0.003 75);
+  --sidebar-foreground: oklch(0.2 0.01 60);
+  --sidebar-primary: oklch(0.22 0.01 60);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar-accent: oklch(0.95 0.004 75);
+  --sidebar-accent-foreground: oklch(0.3 0.01 60);
+  --sidebar-border: oklch(0.9 0.005 75);
+  --sidebar-ring: oklch(0.6 0.04 240);
+
+  /* Chart colours — muted, professional */
+  --chart-1: oklch(0.52 0.12 240);
+  --chart-2: oklch(0.55 0.09 170);
+  --chart-3: oklch(0.5 0.07 60);
+  --chart-4: oklch(0.6 0.1 300);
+  --chart-5: oklch(0.55 0.11 30);
 }
 
 .dark {

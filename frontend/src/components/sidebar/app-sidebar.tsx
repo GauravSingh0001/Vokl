@@ -10,7 +10,7 @@ import {
   SidebarGroupLabel,
   SidebarMenu,
 } from "../ui/sidebar";
-import { User, Sparkles, Settings } from "lucide-react";
+import { User, Mic, Settings } from "lucide-react";
 import Link from "next/link";
 import SidebarMenuItems from "./sidebar-menu-items";
 import MobileSidebarClose from "./mobile-sidebar-close";
@@ -19,17 +19,19 @@ import Upgrade from "./upgrade";
 
 export default async function AppSidebar() {
   return (
-    <Sidebar className="from-background to-muted/20 border-r-0 bg-gradient-to-b">
+    <Sidebar className="border-r border-stone-200 bg-white">
       <SidebarContent className="px-3">
         <MobileSidebarClose />
         <SidebarGroup>
-          <SidebarGroupLabel className="text-primary mt-6 mb-8 flex flex-col items-start justify-start px-2">
+          <SidebarGroupLabel className="mt-6 mb-8 flex flex-col items-start justify-start px-2">
             <Link
               href="/"
-              className="mb-1 flex cursor-pointer items-center gap-2"
+              className="mb-1 flex cursor-pointer items-center gap-2.5"
             >
-              <Sparkles className="text-primary h-6 w-6" />
-              <p className="from-primary to-primary/70 bg-gradient-to-r bg-clip-text text-2xl font-bold tracking-tight text-transparent">
+              <div className="flex h-7 w-7 items-center justify-center rounded-md bg-stone-900">
+                <Mic className="h-4 w-4 text-white" />
+              </div>
+              <p className="text-lg font-semibold tracking-tight text-stone-900">
                 Vokl
               </p>
             </Link>
